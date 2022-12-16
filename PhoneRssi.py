@@ -16,6 +16,7 @@ def getRssi(device: BLEDevice, advertisement_data : AdvertisementData):
     print(device.name)
     print(device.rssi)
     simple_callback(device, advertisement_data)
+    return device.rssi
 
 
 
