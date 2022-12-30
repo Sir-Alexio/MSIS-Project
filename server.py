@@ -44,8 +44,8 @@ def socket_accept():
       conn.close()
       break
      else:
-           print(client_response, end="")
-           print(num, end="")
+           print(client_response, end="\n")
+           #print(num, end="")
     
   #еще должна быть ф-я, отвещающая за параметры обнаружения телефона как на клиенте
   
